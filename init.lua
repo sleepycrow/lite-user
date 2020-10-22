@@ -21,3 +21,11 @@ require "user.plugins.indentguide"
 require "user.plugins.openfilelocation"
 require "user.plugins.selectionhighlight"
 require "user.plugins.detectindent"
+
+-- languages
+require "user.plugins.language_elixir"
+require "user.plugins.language_go"
+require "user.plugins.language_php"
+
+-- configure the plugins
+config.ignore_paths = {"node_modules", "deps"} --todotreeview
