@@ -26,6 +26,7 @@ require "user.plugins.detectindent"
 require "user.plugins.language_elixir"
 require "user.plugins.language_go"
 require "user.plugins.language_php"
+require "user.plugins.language_gdscript"
 
 -- configure the plugins
 config.ignore_paths = {"node_modules", "deps"} --todotreeview
